@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/app_bg">
+
+    <TextView
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:text="CRUD OPERATIONS "
+        android:textSize="28dp"
+        android:textColor="@color/colorAccent"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et1"
+            android:hint="Enter User Name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et2"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+        <Button
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn1"
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add-User"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <Button
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_bg"
+            android:id="@+id/btn2"
+            android:layout_marginLeft="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="View-User"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <EditText
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current Name"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et4"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Name"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+    <Button
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/button_bg"
+        android:id="@+id/btn3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:text="Update-User"
+        android:textSize="18dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et5"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:hint="Enter Name For Delete"
+            android:textStyle="italic"/>
+
+        <Button
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_bg"
+            android:id="@+id/btn4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Delete"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best of Luck"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+</LinearLayout>
